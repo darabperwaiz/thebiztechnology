@@ -4,9 +4,9 @@ import { menuItemsData } from "./NavbarData"
 import { Link } from "react-router-dom"
 import { LuMail } from "react-icons/lu";
 import style from './Navbar.module.css'
-import { FaArrowRightLong } from "react-icons/fa6";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
+import { Button } from "../../../Reusable/Button";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false)
@@ -32,10 +32,7 @@ const Navbar = () => {
         <span>EN</span>
         <span>SP</span>
       </li>
-      <button className={style.button}>
-        <span>Get A Quote</span>
-        <span><FaArrowRightLong /></span>
-      </button>
+      <Button text={"Get A Quote"} />
     </ul>
     </nav>
     <div onClick={handlHamburger} className={style.mobileMenuIcon}>

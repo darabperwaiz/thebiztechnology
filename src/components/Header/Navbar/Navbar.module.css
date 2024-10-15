@@ -64,55 +64,6 @@ nav {
     line-height: .8;
 }
 
-.button {
-    border: 1px solid #2C7EF2;
-    padding: 10px 24px;
-    width: 190px;
-    height: 50px;
-    display: flex;
-    gap: 16px;
-    justify-content: space-around;
-    align-items: center;
-    cursor: pointer;
-    background-color: #fff;
-}
-
-.button>span:nth-child(1) {
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.button>span:nth-child(2) {
-    background-color: var(--primary-button-color);
-    width: 25px;
-    height: 25px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button>span:nth-child(2) svg {
-    transform: rotate(-45deg);
-}
-
-
-.button:hover  {
-    background-color: var(--primary-button-color);
-    color: #fff;
-    border-right: 4px solid #2C7EF2;
-    border-bottom: 4px solid #2C7EF2;
-}
-
-.button:hover>span:nth-child(2) {
-    background-color: #fff;
-}
-
-.button:hover>span:nth-child(2) svg {
-    transform: rotate(0deg);
-    color: var(--primary-button-color);
-    transition: all 0.2s ease-in-out;
-}
 
 .mobileMenuIcon, .closeIcon {
     display: none;

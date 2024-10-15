@@ -1,0 +1,16 @@
+.menuItems {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.menuItems:hover {
+    color: #2D46BE;
+    /* gap: 5px; */
+}

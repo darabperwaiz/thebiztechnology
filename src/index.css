@@ -1,10 +1,23 @@
-body {
+:root {
+  --primary-color: #2D3C52;
+  --secodry-color: #555;
+  --primary-button-color: #2D46BE;
+  --secondry-button-color: #FE9000;
+  --primary-header-color: #414559;
+
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FBFBFB;
 }
 
 code {

@@ -57,7 +57,7 @@ const Banner = () => {
             <p>4.7</p>
           </div>
         </div>
-        <div>Reviewed ON</div>
+        <div className={style.clutch}></div>
       </div>
     </div>
   );

@@ -134,3 +134,9 @@
     font-weight: 800;
 }
 
+
+.clutch {
+    background: url('../../../assets/images/clutch.png')  lightgray 50% / cover no-repeat;
+    width: 165.154px;
+height: 63.189px;
+}

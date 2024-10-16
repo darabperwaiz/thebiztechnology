@@ -1,0 +1,15 @@
+.brands {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.brandIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brandIcons > img {
+  width: 50.935px;
+  height: 70.712px;
+}

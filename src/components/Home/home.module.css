@@ -1,5 +1,6 @@
 .middle {
     background: url('../../assets/images/vector.svg');
     padding: 50px 0;
+    background-repeat: no-repeat;
 }
 

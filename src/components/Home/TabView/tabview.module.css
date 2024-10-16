@@ -1,0 +1,40 @@
+.tabsWrapper {
+    padding: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    
+}
+
+.tabs {
+    display: flex;
+    /* background-color: red;     */
+}
+
+.tab {
+    flex: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding: 16px;
+    color: var(--secodry-color);
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.active {
+    font-weight: 600;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-button-color);
+}
+
+
+.content {
+    display: none;
+}
+.contentVisible {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+}

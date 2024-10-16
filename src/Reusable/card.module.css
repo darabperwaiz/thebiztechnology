@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.2);
+  padding: 0 5px 16px 5px;
+}
+
+.cardLeft {
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  /* background-color: yellow; */
+  gap: 24px;
+}
+
+.icons {
+    width: 25px;
+}
+
+.cardLeft p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cardRight {
+  display: flex;
+  width: 50%;
+  gap: 20px;
+  /* background-color: red; */
+  justify-content: flex-end;
+}
+
+.cardRightLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* display: none; */
+}
+
+.hide {
+    display: none;
+    
+}
+
+.cardRightLeft > p {
+  color: var(--secodry-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cardToggleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 49px;
+  cursor: pointer;
+}

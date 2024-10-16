@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import style from './home.module.css'
 import BrandIcons from "./BrandIcons/BrandIcons";
 import WebTechnology from "./WebTechnology/WebTechnology";
+import Tabview from "./TabView/Tabview";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Banner />
         <BrandIcons />
         <WebTechnology />
+        <Tabview />
       </div>
     </section>
     </>

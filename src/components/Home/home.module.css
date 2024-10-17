@@ -2,5 +2,15 @@
     background: url('../../assets/images/vector.svg');
     padding: 50px 0;
     background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.projects {
+    background-image: url('../../assets/images/vectorCopy.svg');
+    /* background-position: right bottom; */
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    /* background-position-y: bottom; */
+    height: 1000px;
 }
 

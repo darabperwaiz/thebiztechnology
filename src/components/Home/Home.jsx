@@ -5,6 +5,7 @@ import style from './home.module.css'
 import BrandIcons from "./BrandIcons/BrandIcons";
 import WebTechnology from "./WebTechnology/WebTechnology";
 import Tabview from "./TabView/Tabview";
+import OurPortfolio from "./Portfolio/OurPortfolio";
 
 const Home = () => {
   return (
@@ -16,6 +17,11 @@ const Home = () => {
         <BrandIcons />
         <WebTechnology />
         <Tabview />
+      </div>
+    </section>
+    <section className={style.projects}>
+      <div className="container">
+        <OurPortfolio />
       </div>
     </section>
     </>

@@ -38,6 +38,7 @@
 .active {
     background-color: var(--primary-button-color);
     color: #fff;
+    box-shadow: 7px 7px 20px 0px rgba(44, 126, 242, 0.20);
 }
 
 .right {

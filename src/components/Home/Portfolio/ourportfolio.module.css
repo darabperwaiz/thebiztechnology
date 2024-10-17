@@ -1,0 +1,32 @@
+.OurPortfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.head {
+    text-align:  center;
+    font-size: 64px;
+    color: var(--primary-color);
+    font-weight: 300;
+}
+
+.head> span {
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secodry-color);
+}

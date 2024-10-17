@@ -1,31 +1,43 @@
 import React from "react";
 import Hero from "./Hero/Hero";
 import Banner from "./Banner/Banner";
-import style from './home.module.css'
+import style from "./home.module.css";
 import BrandIcons from "./BrandIcons/BrandIcons";
 import WebTechnology from "./WebTechnology/WebTechnology";
 import Tabview from "./TabView/Tabview";
 import OurPortfolio from "./Portfolio/OurPortfolio";
 import OurClients from "./OurClients/OurClients";
+import About from "./About/About";
+import Corevalues from "./CoreValues/Corevalues";
 
 const Home = () => {
   return (
     <>
-    <Hero />
-    <section className={style.middle}>
-      <div className="container">
-        <Banner />
-        <BrandIcons />
-        <WebTechnology />
-        <Tabview />
-      </div>
-    </section>
-    <section className={style.projects}>
-      <div className="container">
-        <OurPortfolio />
-        <OurClients />
-      </div>
-    </section>
+      <Hero />
+      <section className={style.middle}>
+        <div className="container">
+          <Banner />
+          <BrandIcons />
+          <WebTechnology />
+          <Tabview />
+        </div>
+      </section>
+      <section className={style.projects}>
+        <div className="container">
+          <OurPortfolio />
+          <OurClients />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <About />
+        </div>
+      </section>
+      <section className={style.corevalue}>
+        <div className="container">
+          <Corevalues />
+        </div>
+      </section>
     </>
   );
 };

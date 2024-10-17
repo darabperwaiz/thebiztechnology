@@ -1,4 +1,4 @@
-.middle {
+.middle, .corevalue {
     background: url('../../assets/images/vector.svg');
     padding: 50px 0;
     background-repeat: no-repeat;
@@ -13,3 +13,11 @@
     /* background-position-y: bottom; */
 }
 
+.corevalue {
+    background: url('../../assets/images/vector.svg');
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: right 250px;
+    margin: 48px 0;
+    height: 1500px;
+}

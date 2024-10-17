@@ -6,6 +6,7 @@ import BrandIcons from "./BrandIcons/BrandIcons";
 import WebTechnology from "./WebTechnology/WebTechnology";
 import Tabview from "./TabView/Tabview";
 import OurPortfolio from "./Portfolio/OurPortfolio";
+import OurClients from "./OurClients/OurClients";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
     <section className={style.projects}>
       <div className="container">
         <OurPortfolio />
+        <OurClients />
       </div>
     </section>
     </>

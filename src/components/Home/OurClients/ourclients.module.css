@@ -1,0 +1,59 @@
+.ourClients {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.title span {
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    padding: 5px;
+}
+
+.icon {
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1.267px solid rgba(141, 141, 141, 0.15);
+    box-shadow: 0px 10.138px 20.276px 0px rgba(33, 96, 253, 0.12);
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.icons>div:nth-child(3) {
+    background: #1A2C3D;
+}
+
+.icons>div:nth-child(5), .icons>div:nth-child(6){
+    background: #000;
+}
+
+.icon img {
+    object-fit: contain;
+    width: 75px;
+}
+
+.icon:hover {
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    cursor: pointer;
+}

@@ -10,6 +10,8 @@ import OurClients from "./OurClients/OurClients";
 import About from "./About/About";
 import Corevalues from "./CoreValues/Corevalues";
 import Banner2 from "./Banner2/Banner2";
+import Testimonial from "./Testimonial/Testimonial";
+import Contact from "./Contact/Contact";
 
 const Home = () => {
   return (
@@ -38,6 +40,17 @@ const Home = () => {
         <div className="container">
           <Corevalues />
           <Banner2 />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          Development Roadmap.......... Coming Soon!
+        </div>
+      </section>
+      <section>
+        <div className="container">
+            <Testimonial />
+            <Contact />
         </div>
       </section>
     </>

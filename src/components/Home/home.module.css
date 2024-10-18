@@ -7,10 +7,8 @@
 
 .projects {
     background-image: url('../../assets/images/vectorCopy.svg');
-    /* background-position: right bottom; */
     padding: 50px 0;
     background-repeat: no-repeat;
-    /* background-position-y: bottom; */
 }
 
 .corevalue {
@@ -19,5 +17,4 @@
     background-repeat: no-repeat;
     background-position: right 250px;
     margin: 48px 0;
-    height: 1500px;
 }

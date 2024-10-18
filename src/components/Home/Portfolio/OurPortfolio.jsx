@@ -18,7 +18,7 @@ const OurPortfolio = () => {
         </div>
       </div>
       <div className={style.mid}>
-        Projects
+        Projects.......... Coming Soon!
       </div>
       <div className={style.bottom}>
         <PrimaryButton text={"View our all projects"}/>

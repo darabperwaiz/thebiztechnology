@@ -1,0 +1,79 @@
+.banner2 {
+  /* position: relative; */
+  border-radius: 15px;
+  padding: 1px;
+  /* box-shadow: 0 0 12px 12px white, 0 0 3px 2px white; */
+  background: linear-gradient(to left, #ffb147, #ff6c63, #b86adf);
+}
+
+.gradient {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 45%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.des {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--secodry-color);
+}
+
+.right {
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.imgBox {
+    /* background-color: yellow; */
+    overflow: hidden;
+    height: 100%;
+    position: absolute;
+
+}
+
+.imgBox img {
+    width: 280px;
+}
+
+.google {
+    width: 31px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.slack {
+    width: 64px;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+}
+
+.halfCircle {
+    width: 215px;
+    height: 180px;
+    position: absolute;
+    right: 20%;
+    top: 3%;
+
+}

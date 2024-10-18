@@ -9,6 +9,7 @@ import OurPortfolio from "./Portfolio/OurPortfolio";
 import OurClients from "./OurClients/OurClients";
 import About from "./About/About";
 import Corevalues from "./CoreValues/Corevalues";
+import Banner2 from "./Banner2/Banner2";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       <section className={style.corevalue}>
         <div className="container">
           <Corevalues />
+          <Banner2 />
         </div>
       </section>
     </>

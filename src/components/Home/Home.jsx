@@ -12,6 +12,7 @@ import Corevalues from "./CoreValues/Corevalues";
 import Banner2 from "./Banner2/Banner2";
 import Testimonial from "./Testimonial/Testimonial";
 import Contact from "./Contact/Contact";
+import Ceo from "./CEO/Ceo";
 
 const Home = () => {
   return (
@@ -51,6 +52,7 @@ const Home = () => {
         <div className="container">
             <Testimonial />
             <Contact />
+            <Ceo />
         </div>
       </section>
     </>

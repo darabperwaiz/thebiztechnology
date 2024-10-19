@@ -77,6 +77,79 @@
 .right {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    background-color: red;
+    width: 35%;
+    gap: 18px;
 }
+
+.rightTop {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.rightTop>p:nth-child(1) {
+    color: var(--primary-button-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.rightTop>p:nth-child(2) {
+    color: var(--secodry-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.scheduleForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    background: none;
+}
+
+.input {
+    width: 100%;
+    padding: 20px 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A0A9B5;
+    background: none;
+}
+
+textarea.input {
+    overflow:hidden;
+    height: 100px;
+    resize: none;
+    box-sizing: border-box;
+    color: gray;
+}
+
+.button {
+    padding: 18px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    background: var(--primary-button-color);
+    cursor: pointer;
+}
+
+.button>span:nth-child(1) svg {
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background: var(--secondry-button-color);
+}
+

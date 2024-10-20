@@ -17,11 +17,14 @@ const Testimonial = () => {
       <div className={style.mid}>
         <div className={style.outer}>
           <div className={style.inner}>
-            <img
+            <video className={style.clientVideo} src={require(`../../../assets/video/client_video.mp4`)} width="300px" height="900px" autoPlay={true} muted loop>
+                {/* <source  type="video/mp4"/> */}
+            </video>
+            {/* <img
               className={style.female}
               src={require(`../../../assets/images/female.jpeg`)}
               alt=""
-            />
+            /> */}
             <div className={style.dIsland}>
               <div className={style.notification}></div>
               <div className={style.camera}>
@@ -39,7 +42,7 @@ const Testimonial = () => {
                 9:41
             </div>
             <div className={style.navBar}></div>
-            <img className={style.play} src={require(`../../../assets/images/play.svg`).default} alt="" />
+            {/* <img className={style.play} src={require(`../../../assets/images/play.svg`).default} alt="" /> */}
           </div>
         </div>
       </div>

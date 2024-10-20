@@ -13,6 +13,7 @@ import Banner2 from "./Banner2/Banner2";
 import Testimonial from "./Testimonial/Testimonial";
 import Contact from "./Contact/Contact";
 import Ceo from "./CEO/Ceo";
+import Roadmap from "./Roadmap/Roadmap";
 
 const Home = () => {
   return (
@@ -43,9 +44,9 @@ const Home = () => {
           <Banner2 />
         </div>
       </section>
-      <section>
+      <section className={style.roadmap}>
         <div className="container">
-          Development Roadmap.......... Coming Soon!
+          <Roadmap />
         </div>
       </section>
       <section>

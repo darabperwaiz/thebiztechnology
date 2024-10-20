@@ -9,6 +9,7 @@
     background-image: url('../../assets/images/vectorCopy.svg');
     padding: 50px 0;
     background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .corevalue {

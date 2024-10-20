@@ -32,14 +32,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: radial-gradient( #879194 10%, #000000 100%);
     width: 242.823px;
-    /* background-color: #000000; */
+    background-color: #535353;
     height: 500.488px;
     border-radius: 40.712px;
     border: 0.594px solid #1f2321;
-    /* filter: blur(0.5936987996101379px); */
     padding: 1px;
+    -webkit-box-shadow: inset 0 0 4px 1px #000;
+    box-shadow: inset 0 0 4px 1px #000;
 }
 
 .inner {
@@ -49,11 +49,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 20px; */
     border-radius: 36.912px;
     background-color: #000000;
-    border: 2.375px solid #383838;
-    /* filter: blur(2.077946186065674px); */
+    border: 4.375px solid #121212;
     overflow: hidden;
 }
 

@@ -10,8 +10,10 @@ const Header = () => {
   return (
     <>
     <header>
+      <div className={style.nav}>
       <Logo />
       <Navbar />
+      </div>
     </header>
     <Outlet />
     <Footer />

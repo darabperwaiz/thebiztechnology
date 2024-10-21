@@ -29,7 +29,7 @@ const Home = () => {
       </section>
       <section className={style.projects}>
         <div className="container">
-          <OurPortfolio />
+          <OurPortfolio limit={6} />
           <OurClients />
         </div>
       </section>

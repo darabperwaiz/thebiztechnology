@@ -31,7 +31,7 @@ const OurPortfolio = ({limit=6}) => {
         </div>
       </div>
       <div className={style.mid}>
-        {projects.map((t, i)=> i < 6 && (
+        {projects.map((t, i)=> i < limit && (
 
           <div className={`${style.gridItem} item${i}`} key={i}>
             <img src={require(`../../../assets/images/porfolioimg/${t.img}`)} alt="" />

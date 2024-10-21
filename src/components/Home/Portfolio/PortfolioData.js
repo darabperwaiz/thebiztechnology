@@ -16,7 +16,7 @@ export const portfolioData = [
     },
     {
         id: 4,
-        category: 'ui',
+        category: 'ui/ux',
         img: 'project4.png'
     },
     {
@@ -36,7 +36,7 @@ export const portfolioData = [
     },
     {
         id: 8,
-        category: 'ui',
+        category: 'ui/ux',
         img: 'project2.png',
     },
     {
@@ -56,7 +56,7 @@ export const portfolioData = [
     },
     {
         id: 12,
-        category: 'ui',
+        category: 'ui/ux',
         img: 'project6.png'
     },
     

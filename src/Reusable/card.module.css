@@ -57,3 +57,21 @@
   font-size: 49px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-wrap: wrap;
+  }
+
+  .cardLeft {
+    width: 80%;
+  }
+
+  .cardRight {
+    width: 100%;
+    flex-direction: column;
+    order: 3;
+    margin-top: 15px;
+  }
+}

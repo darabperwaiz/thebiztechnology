@@ -64,6 +64,7 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .link {
@@ -153,3 +154,17 @@ textarea.input {
     background: var(--secondry-button-color);
 }
 
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}

@@ -250,3 +250,21 @@
 }
 
 
+@media screen and (max-width: 992px) {
+    .testimonial {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .right {
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .right {
+        width: 100%;
+    }
+}

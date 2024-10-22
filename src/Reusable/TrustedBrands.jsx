@@ -52,7 +52,9 @@ const TrustedBrands = () => {
             <p>4.7</p>
           </div>
         </div>
-        <div className={style.clutch}></div>
+        <div className={style.clutch}>
+          <img src={require(`../assets/images/clutch.png`)} alt="" />
+        </div>
       </div>
   )
 }

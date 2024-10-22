@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 43%;
 }
 
 .top > img {
@@ -35,4 +36,10 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 160%;
+}
+
+@media screen and (max-width:600px) {
+    .card {
+        width: 100%;
+    }
 }

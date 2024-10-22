@@ -1,21 +1,26 @@
 .technology {
-    display: flex;
-    flex-direction: column;
-    gap: 50.7px;
+  display: flex;
+  flex-direction: column;
+  gap: 50.7px;
 }
 
 .top p {
-    text-align: center;
-    font-size: 64px;
-    /* font-weight: 600; */
-    color: var(--primary-header-color);
+  text-align: center;
+  font-size: clamp(2.5rem, 1.1500rem + 6.0000vw, 4rem);
+  /* font-weight: 600; */
+  color: var(--primary-header-color);
 }
 
 .bottom {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.left {
+    width: 100%;
+}
+
 
 .items {
   columns: 2;
@@ -23,44 +28,89 @@
   -moz-columns: 2;
   list-style: none;
   width: 400px;
-  
 }
 
 .item {
-    margin-bottom: 25px;
-    padding: 8px 0 8px 24px ;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 50px;
-    cursor: pointer;
+  margin-bottom: 25px;
+  padding: 8px 0 8px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .active {
-    background-color: var(--primary-button-color);
-    color: #fff;
-    box-shadow: 7px 7px 20px 0px rgba(44, 126, 242, 0.20);
+  background-color: var(--primary-button-color);
+  color: #fff;
+  box-shadow: 7px 7px 20px 0px rgba(44, 126, 242, 0.2);
 }
 
 .right {
-    display: flex;
-    gap: 48px;
-    padding: 54px 0 54px 54px;
-    align-items: center;
+  display: flex;
+  gap: 48px;
+  padding: 54px 0 54px 54px;
+  align-items: center;
 }
 
 .right img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .right p {
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--secodry-color);
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--secodry-color);
 }
 
 .right > div {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .right {
     flex-direction: column;
-    gap: 10px;
+    gap: 22px;
+    padding: 0px 0 0px 40px;
+  }
+  .items {
+    width: 305px;
+  }
+  .item {
+    font-size: 16px;
+  }
+  .right > div {
+    align-items: center;
+  }
+
+  .right p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+    .bottom {
+        flex-direction: column;
+    }
+    .items {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        display: flex;
+        overflow-x: scroll;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .item {
+        padding: 10px 20px;
+        width: unset;
+        min-width: fit-content;
+    }
+
 }

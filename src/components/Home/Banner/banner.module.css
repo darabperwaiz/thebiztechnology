@@ -19,8 +19,21 @@
 }
 
 .left p {
-  font-size: 25px;
+  font-size: clamp(0.813rem, 0.4916rem + 1.4286vw, 1.563rem);
   font-weight: 400;
 }
 
 
+@media screen and (max-width: 760px) {
+  .banner {
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    justify-content: center;
+  }
+  .left {
+    flex-shrink: 1;
+    width: 100%;
+    justify-content: center;
+
+  }
+}

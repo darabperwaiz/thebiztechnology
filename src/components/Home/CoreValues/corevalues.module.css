@@ -6,8 +6,7 @@
 
 .title {
     color: var(--primary-color);
-    font-size: 54px;
-    font-family: 275;
+    font-size: clamp(3.125rem, 2.3375rem + 3.5000vw, 4rem);
 }
 
 .title>span {
@@ -16,12 +15,14 @@
 
 .bottom {
     display: flex;
-    padding: 0 64px;
-    gap: 94px;
+    padding: 0 10px;
+    gap: 90px;
 }
 
 .left, .right {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 48px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

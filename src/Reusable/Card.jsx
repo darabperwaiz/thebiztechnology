@@ -25,19 +25,20 @@ export const Card = ({data, index}) => {
         <img className={style.icons} src={require(`../assets/images/serviceIcons/${data.src}`)} alt="" />
         <p>{data.title}</p>
       </div>
-      <div className={style.cardRight}>
+      <div className={isActive? `${style.cardRight}` : `${style.hide}`}>
         <div className={isActive ? `${style.cardRightLeft}` : `${style.hide}`}>
           <p>
             {data.description}
           </p>
           <LearnMoreBtn text={"learn more"} url={"#"} color={"blue"} />
         </div>
-        <div className={style.cardToggleBtn} onClick={handleClick}>
+        
+      </div>
+      <div className={style.cardToggleBtn} onClick={handleClick}>
         {/*  */}
         {isActive ? <BsDashLg style={{color: "#707070"}}/> : <BsPlusLg style={{color: "#4285F4"}}/>}
           
         </div>
-      </div>
     </div>
   );
 };

@@ -11,11 +11,11 @@ const Banner2 = () => {
                 <PrimaryButton text="Let's talk with me"/>
             </div>
             <div className={style.right}>
-                <img className={style.google} src={require(`../../../assets/images/g.svg`).default} alt="" />
                 <img className={style.halfCircle} src={require(`../../../assets/images/halfCircle.svg`).default} alt="" />
                 <div className={style.imgBox}>
                     <img src={require(`../../../assets/images/man.png`)} alt="" />
                 </div>
+                <img className={style.google} src={require(`../../../assets/images/g.svg`).default} alt="" />
                 <img className={style.slack} src={require(`../../../assets/images/slack.svg`).default} alt="" />
             </div>
             </div>

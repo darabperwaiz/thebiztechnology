@@ -17,10 +17,12 @@
 
 .icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 160px;
-    padding: 5px;
+    /* height: 160px;
+    padding: 5px; */
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .icon {

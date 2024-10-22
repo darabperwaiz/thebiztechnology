@@ -1,0 +1,7 @@
+.logo {
+    width: clamp(4rem, 1.9750rem + 9.0000vw, 6.25rem);
+}
+
+.logo>img {
+    width: 100%;
+}

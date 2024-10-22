@@ -27,8 +27,8 @@
 .starRating,
 .Halfstar {
   display: flex;
-  width: 14.398px;
-  height: 14.398px;
+  width: clamp(0.712rem, 0.5428rem + 0.7520vw, 0.9rem);
+  height: clamp(0.712rem, 0.5428rem + 0.7520vw, 0.9rem);
   padding: 1.08px;
   flex-direction: column;
   justify-content: center;
@@ -72,13 +72,13 @@
 }
 
 .gLeft > img {
-  width: 30.298px;
-  height: 30.298px;
+  width: clamp(1.269rem, 0.7065rem + 2.5000vw, 1.894rem);
+  height: clamp(1.269rem, 0.7065rem + 2.5000vw, 1.894rem);
 }
 
-.Ystar > img {
-  width: 14.288px;
-  height: 14.288px;
+.YStar > img {
+  width: clamp(0.706rem, 0.5377rem + 0.7480vw, 0.893rem);
+  height: clamp(0.706rem, 0.5377rem + 0.7480vw, 0.893rem);
 }
 
 .gRight {
@@ -110,7 +110,25 @@
 }
 
 .clutch {
-  background: url("../assets/images/clutch.png") lightgray 50% / cover no-repeat;
-  width: 165.154px;
-  height: 63.189px;
+  /* background: url("../assets/images/clutch.png") lightgray 50% / cover no-repeat; */
+  width: clamp(5.697rem, 1.5345rem + 18.5000vw, 10.322rem);
+  height: clamp(3.137rem, 2.4062rem + 3.2480vw, 3.949rem);
 }
+
+.clutch>img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 760px) {
+  .trustpilotHead>p {
+    font-size: clamp(0.813rem, 0.5322rem + 1.2480vw, 1.125rem);
+  }
+  .trustpilotHead>img {
+    width: clamp(0.813rem, 0.5322rem + 1.2480vw, 1.125rem);
+  }
+
+
+}
+

@@ -23,8 +23,8 @@ const Navbar = () => {
             <Link className={style.email} to="mailto:info@thebiztechnology.com"><LuMail style={{color: "orange"}}/> <span>info@thebiztechnology.com</span></Link>
             <Link className={style.phone} to="tel:+12340499999">+1 (234)-049-9999</Link>
     </div>
-    <ul className={`${style.navItems} ${isActive ? `${style.active}` : ''}`}>
-      <div className={style.closeIcon} onClick={handlClose}><IoClose /></div>
+    <ul className={`${style.navItems}`}>
+      
       {menuItemsData.map((menus, index)=> (
         <li><NavItem menus={menus} key={index}/></li>
       ))}
@@ -35,7 +35,11 @@ const Navbar = () => {
       <Button text={"Get A Quote"} />
     </ul>
     </nav>
-    <div onClick={handlHamburger} className={style.mobileMenuIcon}>
+    <div className={`${style.mobileMenu} ${isActive ? `${style.active}` : ''}` } >
+      Mobile Menu......... Coming Soon!
+      <div className={style.closeIcon} onClick={handlClose} style={isActive ? {display: 'flex'} : {display: 'none'}}><IoClose /></div>
+    </div>
+    <div onClick={handlHamburger}  className={style.mobileMenuIcon}>
     <HiOutlineMenuAlt3 />
     </div>
     </>

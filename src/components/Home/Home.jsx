@@ -44,11 +44,11 @@ const Home = () => {
           <Banner2 />
         </div>
       </section>
-      <section className={style.roadmap}>
+      {/* <section className={style.roadmap}>
         <div className="container">
           <Roadmap />
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="container">
             <Testimonial />

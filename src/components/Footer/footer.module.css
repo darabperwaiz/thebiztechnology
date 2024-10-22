@@ -9,7 +9,8 @@
     display: flex;
     justify-content: space-between; 
     padding: 54px 0px 12px 0px; 
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    gap: 40px;  
 }
 
 .left {

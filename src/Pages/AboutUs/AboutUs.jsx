@@ -13,7 +13,7 @@ const AboutUs = () => {
           <div className={style.wrapper}>
             <div className={style.head}>
               <p className={style.title}>
-                welcome to <span>the biz technology company</span>
+                welcome to <span>the biz technology</span> company
               </p>
               <p className={style.des}>
                 your trusted partner for internet marketing and website
@@ -32,7 +32,7 @@ const AboutUs = () => {
             Section....... Coming Soon!
         </div>
       </section>
-      
+
       <div className="container">
         <Contact />
         <Ceo />

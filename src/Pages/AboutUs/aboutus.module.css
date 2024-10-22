@@ -1,0 +1,41 @@
+.aboutHero {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(247.89% 71.86% at 48.39% 50%, #F2F4FB 0%, rgba(242, 244, 251, 0.90) 100%), url('../../assets/images/about-section.jpg') lightgray 50% / cover no-repeat;
+}
+
+.wrapper {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 30px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.head .title {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 275;
+    text-transform: uppercase;
+}
+
+.title>span {
+    font-weight: 600;
+}
+
+.head .des {
+    color: var(--secodry-color);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}

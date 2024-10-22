@@ -29,11 +29,12 @@ const Footer = () => {
               </div>
               <div className={style.icon}>
                 <div className={style.insta}>
-                  <FaSquareInstagram
+                  <FaInstagram
                     style={{
                       background:
                         "linear-gradient(270deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%)",
                       borderRadius: "3px",
+                      WebkitTextFillColor: 'transparent'
                     }}
                   />
                 </div>

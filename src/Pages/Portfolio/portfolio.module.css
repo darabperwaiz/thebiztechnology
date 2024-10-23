@@ -1,0 +1,50 @@
+.portfolio {
+    padding-top: 150px;
+    background: url('../../assets/images/polygon.svg') ;
+    padding-bottom: 100px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.portfolioWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.top>p:nth-child(1) {
+    color: var(--secondry-button-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.top>p:nth-child(2) {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: clamp(2.5rem, 0.4044rem + 9.3137vw, 4.875rem);
+    font-weight: 275;
+    line-height: 105.3%;
+    letter-spacing: 0.39px;
+}
+
+.top>p:nth-child(2)>span, .top>p:nth-child(3)>span {
+    font-weight: 600;
+}
+
+.top>p:nth-child(3) {
+    color: var(--secodry-color);
+    text-align: center;
+    font-size: clamp(1rem, 0.7794rem + 0.9804vw, 1.25rem);
+    font-weight: 200;
+    line-height: 140%;
+    text-transform: lowercase;
+}
+

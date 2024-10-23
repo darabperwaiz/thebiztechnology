@@ -2,7 +2,6 @@ import React from 'react'
 import style from './smallCard.module.css'
 
 const SmallCard = ({title, des, icon}) => {
-    console.log(icon)
   return (
     <div className={style.card}>
       <div className={style.top}>

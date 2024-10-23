@@ -26,7 +26,7 @@ const Navbar = () => {
     <ul className={`${style.navItems}`}>
       
       {menuItemsData.map((menus, index)=> (
-        <li><NavItem menus={menus} key={index}/></li>
+        <li key={index}><NavItem menus={menus} /></li>
       ))}
       <li className={style.lang}>
         <span>EN</span>

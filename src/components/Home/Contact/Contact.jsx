@@ -45,8 +45,8 @@ const Contact = () => {
         <form action="" className="scheduleForm">
           <input className={style.input} type="text" placeholder="Your Name"/>
           <input className={style.input} type="text" placeholder="Your Phone"/>
-          <select className={style.input} name="services" id="">
-            <option value="" selected disabled hidden>Select A Services</option>
+          <select value={'DEFAULT'} onChange={(e)=> e.target.value} className={style.input} name="services" id="">
+            <option value="" disabled hidden>Select A Services</option>
             <option value="seo">SEO</option>
             <option value="smo">SMO</option>
             <option value="gmb">GMB</option>

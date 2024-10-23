@@ -22,12 +22,12 @@ const Tabview = () => {
     </div>
     <div className={toggleState===1 ? `${style.content} ${style.contentVisible}` : `${style.content}`}>
         {data.map((item, index)=> (
-            <Card data={item} index={index}/>
+            <Card data={item} index={index} key={index}/>
         ))}
     </div>
     <div className={toggleState===2 ? `${style.content} ${style.contentVisible}` : `${style.content}`}>
     {data.map((item, index)=> (
-            <Card data={item} index={index}/>
+            <Card data={item} index={index} key={index}/>
         ))}
     </div>
     </div>

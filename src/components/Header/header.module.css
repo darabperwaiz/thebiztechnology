@@ -2,7 +2,16 @@ header {
     position: fixed;
     width: 100%;
     z-index: 5;
+    top: -120px;
+    transition: all 0.5s ease-in-out;
+}
+
+.active {
     top: 2%;
+}
+
+.top {
+    top: 0;
 }
 
 .nav {

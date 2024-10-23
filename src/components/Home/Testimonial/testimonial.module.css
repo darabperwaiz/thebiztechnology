@@ -17,14 +17,13 @@
 
 .left>p:nth-child(2) {
     color: var(--primary-color);
-    font-size: 64px;
+    font-size: clamp(2.5rem, 1.1500rem + 6.0000vw, 4rem);
     font-weight: 400;
     letter-spacing: 0.32px;
     text-transform: capitalize;
 }
 
 .left>p:nth-child(2)>span {
-    font-size: 57px;
     font-weight: 700;
 }
 
@@ -184,6 +183,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    align-items: center;
 }
 
 .quote {
@@ -199,7 +199,7 @@
 .rightTop>p {
     color: var(--secodry-color);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -266,5 +266,11 @@
 @media screen and (max-width: 600px) {
     .right {
         width: 100%;
+        
+    }
+
+    .midMid {
+        justify-content: center;
+        gap: 18px;
     }
 }

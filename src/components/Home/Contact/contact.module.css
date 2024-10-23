@@ -19,7 +19,7 @@
 
 .title {
     color: var(--primary-color);
-    font-size: 64px;
+    font-size: clamp(2.5rem, 1.1500rem + 6.0000vw, 4rem);
     font-weight: 200;
 }
 
@@ -158,13 +158,24 @@ textarea.input {
 @media screen and (max-width: 768px) {
     .contact {
         flex-direction: column;
-        gap: 40px;
+        gap: 60px;
     }
     .left {
         width: 100%;
+        gap: 40px;
     }
 
     .right {
         width: 100%;
+    }
+    .botLeft {
+        justify-content: center;
+    }
+
+    .midLeft {
+        justify-content: center;
+    }
+    .rating {
+        align-items: center;
     }
 }

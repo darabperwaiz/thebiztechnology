@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import AboutUs from "./Pages/AboutUs/AboutUs";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
+      <Analytics />
     </div>
   );
 }

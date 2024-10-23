@@ -98,11 +98,21 @@
 
   .left {
     width: 100%;
+    align-items: center;
   }
 
   .halfCircle {
     right: 27%;
     top: 0%;
     transform: rotate(341deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: clamp(1.125rem, -0.1875rem + 5.8333vw, 2rem);
+  }
+  .des {
+    font-size: clamp(1rem, 0.8125rem + 0.8333vw, 1.125rem);
   }
 }

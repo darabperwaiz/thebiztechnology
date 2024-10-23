@@ -9,16 +9,20 @@ import Footer from "../Footer/Footer"
 const Header = () => {
   const [show, setShow] = useState(true)
   const [activeClass, setActiveClass] = useState(style.active)
+  const [width, setWidth] = useState(window.innerWidth);
+
 
   useEffect(() => {
-    let windowWidth = window.innerWidth
-    if(windowWidth<= 600) {
+   
+    if(width<= 768) {
       setActiveClass(style.top)
     } else {
       setActiveClass(style.active)
     }
 
-    windowWidth = windowWidth.innerWidth
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    
     let previousScrollPosition = 0;
     let currentScrollPosition = 0;
 
@@ -37,6 +41,8 @@ const Header = () => {
       // Update the previous value
       previousScrollPosition = currentScrollPosition;
     });
+
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (

@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import { Analytics } from "@vercel/analytics/react"
 import Portfolio from "./Pages/Portfolio/Portfolio";
+import ContactUs from "./Pages/ContactUs/ContactUs";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: 'portfolio',
         element: <Portfolio />
+      },
+      {
+        path: 'contact-us',
+        element: <ContactUs />
       }
     ]
   }
